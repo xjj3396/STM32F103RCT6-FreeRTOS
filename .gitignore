@@ -1,0 +1,47 @@
+
+# ============================
+# STM32 + FreeRTOS + CMake
+# ============================
+
+# 1. 编译输出目录
+/build/
+/Debug/
+/Release/
+/out/
+
+# 2. CMake / Ninja 临时文件
+CMakeFiles/
+CMakeCache.txt
+CMakeUserPresets.json
+compile_commands.json
+.ninja_deps
+.ninja_log
+
+# 3. 编译生成的文件
+*.o
+*.obj
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.su
+*.gcda
+*.gcno
+
+# 4. VS Code 本机配置
+/.vscode/
+
+# 5. STM32Cube 插件配置
+# 保留项目识别信息，忽略其他本机配置
+/.settings/*
+!/.settings/ide.store.json
+
+# 6. macOS / 编辑器临时文件
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
