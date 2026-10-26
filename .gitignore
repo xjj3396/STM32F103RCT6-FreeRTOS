@@ -1,0 +1,43 @@
+
+# STM32F103RCT6 + FreeRTOS + CMake
+
+# 编译输出
+/build/
+/Debug/
+/Release/
+/out/
+
+# CMake / Ninja 缓存
+CMakeFiles/
+CMakeCache.txt
+CMakeUserPresets.json
+compile_commands.json
+.ninja_deps
+.ninja_log
+
+# 编译生成的文件
+*.o
+*.obj
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.su
+
+# VS Code 本机设置
+/.vscode/
+
+# STM32Cube 插件配置
+/.settings/*
+!/.settings/ide.store.json
+
+# macOS 临时文件
+.DS_Store
+
+# 编辑器临时文件
+*.swp
+*.bak
+*.tmp
+*~
